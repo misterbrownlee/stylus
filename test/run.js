@@ -1,4 +1,3 @@
-
 /**
  * Module dependencies.
  */
@@ -40,7 +39,6 @@ describe('integration', function(){
 
       style.render(function(err, actual){
         if (err) throw err;
-        console.log('actual', actual);
         actual.trim().should.equal(css);
       });
     })
